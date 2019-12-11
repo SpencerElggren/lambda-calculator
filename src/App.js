@@ -34,7 +34,7 @@ function App() {
         if (special === "C") {
             addTotal("")
         } if (special === "+/-") {
-            addTotal(totalNumb => "-" + totalNumb)
+            addTotal(totalNumb => totalNumb + "-")
         } if (special === "%") {
             addTotal(totalNumb => totalNumb + " " + special + " ");
         }
