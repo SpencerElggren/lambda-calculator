@@ -1,9 +1,8 @@
 import React from "react";
 
 const NumberButton = props => {
-    console.log(props);
   return (
-      <button className="appButtonNumb">
+      <button  onClick={()=> props.addN(props.number)} className="appButtonNumb">
         {props.number}
       </button>
   );

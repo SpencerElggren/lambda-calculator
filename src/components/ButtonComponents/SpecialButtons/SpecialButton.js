@@ -2,7 +2,7 @@ import React from "react";
 
 const SpecialButton = props => {
   return (
-      <button className="appButton">
+      <button onClick={()=> props.addSpecial(props.special)} className="appButton">
         {props.special}
       </button>
   );

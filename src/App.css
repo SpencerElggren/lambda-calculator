@@ -30,11 +30,12 @@
 
 .appButton {
     font-size: 4rem;
-    background: lightblue;
+    background: blue;
     color: white;
     border-radius: 50%;
     width: 7rem;
     margin-bottom: .5rem;
+    border: black solid 1px;
 }
 
 .appButtonNumb {
@@ -44,6 +45,7 @@
     border-radius: 50%;
     width: 7rem;
     margin-bottom: .5rem;
+    border: black solid 1px;
 }
 
 .calc {

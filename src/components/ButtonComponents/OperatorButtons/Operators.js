@@ -5,7 +5,7 @@ import OperatorButton from "./OperatorButton";
 
 //Import your array data to from the provided data file
 
-export const Operators = () => {
+export const Operators = (props) => {
   const [operatorState, setOperator] = useState(operators);
   return (
     <div className="ops">
@@ -13,6 +13,7 @@ export const Operators = () => {
           <OperatorButton
           key={index}
           operator={operator}
+          addOperator={props.addOperator}
           />
       ))}
     </div>
